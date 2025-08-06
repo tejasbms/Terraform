@@ -1,0 +1,11 @@
+module "ec_2_create" {
+	source = "./modules/ec_2"
+	instance_type = var.instance_type
+	ami = var.ami
+	pem_key_name = var.pem_key_name
+	instance_name = var.instance_name
+}
+
+module "my_s3" {
+	source = "./modules/s3"
+	mys_3 
