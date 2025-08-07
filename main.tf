@@ -6,6 +6,3 @@ module "ec_2_create" {
 	instance_name = var.instance_name
 }
 
-module "my_s3" {
-	source = "./modules/s3"
-	mys_3 
